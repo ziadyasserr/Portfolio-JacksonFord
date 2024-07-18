@@ -1,0 +1,20 @@
+.progress-container {
+    margin-top: 20px;
+  }
+  
+  .progress-label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .progress {
+    height: 20px;
+  }
+  
+  .progress-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  

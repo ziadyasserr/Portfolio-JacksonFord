@@ -1,0 +1,23 @@
+.section-about {
+  margin-bottom: 80px;
+  z-index: 0;
+  box-shadow: 0 0 56px -8px #0000002b;
+  /* border-bottom: 2px solid ; */
+  padding: 30px 30px;
+}
+.section-main {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 500;
+}
+.letter-spacing-lg {
+  letter-spacing: 5px;
+}
+
+@media (min-width:1200px) {
+    .about{
+        padding: 110px 0;
+        width: 85% !important;
+    }
+}

@@ -1,0 +1,41 @@
+#sidebar-wrapper {
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 280px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  #sidebar-wrapper {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+}
+.logo img {
+  width: 150px;
+  height: 160px;
+  border-radius: 50%;
+}
+.text-sidebar {
+  font-size: 13px;
+}
+
+.nav {
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+.nav-link.active {
+  color: #0d6efd !important;
+  font-weight: bold;
+}
+.btn{
+  border: none !important;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+
+ background-color: transparent !important; 
+}
